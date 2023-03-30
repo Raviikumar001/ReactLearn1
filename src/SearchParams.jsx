@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
-import Pet from "./Pet";
+import Results from "./Rsults";
+
 import useBreedList from "./useBreedList";
 const ANIMAL = ["bird", "cat", "dog", "rabbit", "reptile"];
 
@@ -87,14 +88,7 @@ const SearchParams = () => {
       </form>
 
 
-      {pets.map( (pet)=> (
-        <Pet 
-        name={pet.name}
-        animal= {pet.animal}
-        breed = {pet.breed}
-        key = {pet.id}
-        />
-      ))}
+      <Results pets={pets}/>
     </div>
   );
 };
