@@ -19,7 +19,7 @@ const Pet = ({name, animal, breed, images,location,id})=> {
                 <h2>
                     {animal} - {breed} -{location}
                 </h2>
-                
+
             </div>
 
         </div>
