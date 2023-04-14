@@ -28,7 +28,7 @@ const SearchParams = () => {
 
   }
 
-
+  
 
   return (
     <div className="search-params">
