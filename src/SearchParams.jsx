@@ -5,6 +5,8 @@ import fetchSearch from "./fetchSearch";
 import useBreedList from "./useBreedList";
 const ANIMAL = ["bird", "cat", "dog", "rabbit", "reptile"];
 
+
+//example of an uncontrolled form. 
 const SearchParams = () => {
   const [requestParams, setRequestParams] = useState({
     location: "",
