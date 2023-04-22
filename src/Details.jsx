@@ -43,4 +43,4 @@ function DetailsErrorBoundary()
 
 
 
-export default Details;
+export default DetailsErrorBoundary;
