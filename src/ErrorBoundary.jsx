@@ -4,6 +4,9 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
+
+
+//Error Boundary is now only available through class components. 
 class ErrorBoundary extends Component {
   state = { hasError: false };
   static getDerivedStateFromError() {
