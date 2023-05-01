@@ -3,6 +3,7 @@ import { Component } from "react";
 
 
 //this is a class component carousel, with styling applied.
+//this also has error boundary concepts applied.
 class Carousel extends Component {
 
     state = {
