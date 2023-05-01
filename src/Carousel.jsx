@@ -1,6 +1,8 @@
 
 import { Component } from "react";
 
+
+//this is a class component carousel, with styling applied.
 class Carousel extends Component {
 
     state = {
